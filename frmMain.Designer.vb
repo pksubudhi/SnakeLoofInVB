@@ -30,9 +30,9 @@ Partial Class frmMain
         '
         'pnlPlayArea
         '
-        Me.pnlPlayArea.Location = New System.Drawing.Point(132, 28)
+        Me.pnlPlayArea.Location = New System.Drawing.Point(30, 23)
         Me.pnlPlayArea.Name = "pnlPlayArea"
-        Me.pnlPlayArea.Size = New System.Drawing.Size(318, 404)
+        Me.pnlPlayArea.Size = New System.Drawing.Size(435, 404)
         Me.pnlPlayArea.TabIndex = 0
         '
         'imlImg
@@ -48,11 +48,13 @@ Partial Class frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(643, 459)
+        Me.ClientSize = New System.Drawing.Size(753, 537)
         Me.Controls.Add(Me.pnlPlayArea)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.KeyPreview = True
         Me.Name = "frmMain"
-        Me.Text = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Snakeloof 1.0"
         Me.ResumeLayout(False)
 
     End Sub
